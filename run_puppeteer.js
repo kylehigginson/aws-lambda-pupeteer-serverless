@@ -29,7 +29,7 @@ exports.handler = async (event) => {
   await page.waitForSelector("#continueWithEmail")
   await page.click("#continueWithEmail")
 
-  await page.type("#emailInput", "kylehigginson11@hotmail.com")
+  await page.type("#emailInput", "example@email.com")
   await page.click("#continueLoggingIn")
 
   await page.waitForSelector("#passwordInput", { visible: true })
