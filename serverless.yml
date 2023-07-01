@@ -1,4 +1,4 @@
-service: aws-lambda-pupeteer-serverless
+service: aws-lambda-puppeteer-serverless
 
 provider:
   name: aws
@@ -6,8 +6,8 @@ provider:
   runtime: nodejs18.x
 
 functions:
-  pupeteerExample:
-    handler: run_pupeteer.handler
+  puppeteerExample:
+    handler: run_puppeteer.handler
     timeout: 20
     events:
       - schedule: rate(10 minutes)
