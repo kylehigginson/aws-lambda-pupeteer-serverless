@@ -8,6 +8,6 @@ provider:
 functions:
   puppeteerExample:
     handler: run_puppeteer.handler
-    timeout: 20
+    timeout: 40
     events:
       - schedule: rate(10 minutes)

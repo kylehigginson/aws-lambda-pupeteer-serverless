@@ -6,7 +6,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "chrome-aws-lambda": "^10.1.0",
-    "puppeteer": "^20.7.4"
+    "@sparticuz/chromium": "^114.0.0",
+    "puppeteer-core": "^20.7.4"
   }
 }
